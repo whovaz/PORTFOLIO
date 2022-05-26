@@ -1,0 +1,73 @@
+body{
+    background-color: #D3D3D3;
+    background-image: linear-gradient(black, grey, #D3D3D3);
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-size: 17px;
+}
+h2, h3, h4, h5, h6{
+    color: rgba(220, 20, 60, 0.425);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    line-height: 1.1;
+    text-shadow: #000000 50px;
+}
+.col-sm-6 {
+    width: 50%;
+}
+a{
+    color:#000000;
+    font-family: Georgia, serif;
+}
+a:hover{
+    color:#962121;;
+}
+.front-logo .cover{
+    position: fixed;
+}
+.front-logo h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    margin: 25px;
+}
+h1{
+    color: #962121;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
+    font-weight: 900;
+    line-height: 1.1;
+    text-shadow: 2px 1px black;
+}
+.cover{
+    background-size: cover;
+    background-image: url("https://www.mwallpapers.com/download-image/795905/1080x608");
+    height:300px;
+    margin:50px 0px;
+    margin-top:25%;
+}
+.col-sm-2 {
+    height: 200px;
+    margin: 50px 0px;
+}
+.jumbotron{
+    background-color: #38383871;
+    border: black;
+    border-width: 2px;
+}
+.front-nav-1{
+    background-color: #A9A9A9;
+}
+.front-nav-2{
+    background-color: #808080;
+}
+.front-nav-3{
+    background-color: #696969;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    color: black    ;
+    background-color: rgba(220, 20, 60, 0.425);
+}       
+@media screen and (min-width: 768px) {
+    .jumbotron .h1, .jumbotron h1 {
+        font-size: 47px;
+    }
+}
